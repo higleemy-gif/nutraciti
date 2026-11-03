@@ -8,14 +8,12 @@ import ScienceSection from "@/components/product/ScienceSection";
 import GoldenRitualSection from "@/components/product/GoldenRitualSection";
 import CompleteRitualSection from "@/components/product/CompleteRitualSection";
 import ReviewsSection from "@/components/product/ReviewsSection";
-import { CATALOG, getProductBySlug } from "@/lib/products";
+import { getProductBySlug } from "@/lib/data/products";
 
-export function generateStaticParams() {
-  return CATALOG.map((p) => ({ slug: p.slug as string }));
-}
+export const dynamic = "force-dynamic";
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const product = getProductBySlug(params.slug);
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const product = await getProductBySlug(params.slug);
   if (!product) return { title: "Product Not Found | Nutraciti International" };
   return {
     title: product.name + " | Nutraciti International",
@@ -23,8 +21,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = getProductBySlug(params.slug);
+export default async function ProductPage({ params }: { params: { slug: string } }) {
+  const product = await getProductBySlug(params.slug);
   if (!product) notFound();
   return (
     <>

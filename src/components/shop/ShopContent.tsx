@@ -1,9 +1,8 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import ProductCard from "./ProductCard";
+import ProductCard, { type Product } from "./ProductCard";
 import FilterSections from "./FilterSections";
-import { CATALOG as PRODUCTS } from "@/lib/products";
 
 const SORTS = [
   { v: "best", label: "Best Selling" },
@@ -13,7 +12,7 @@ const SORTS = [
   { v: "rated", label: "Top Rated" },
 ];
 
-export default function ShopContent() {
+export default function ShopContent({ products: PRODUCTS }: { products: Product[] }) {
   const [saved, setSaved] = useState<Record<string, boolean>>({});
   const [sort, setSort] = useState("best");
   const [drawer, setDrawer] = useState(false);
