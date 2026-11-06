@@ -6,7 +6,7 @@ export default function Bestsellers() {
   const products = [
     { tag: "Bestseller", tagClass: "bg-gradient-gold-end text-surface", forText: "For Pigmentation", name: "Luxury Ayurvedic Dark Spot Serum", actives: "Saffron + Licorice Extract", rating: "4.8", reviews: "(1,634)", price: "1,099", mrp: "1,499", off: "26% OFF", img: "/products/luxury-ayurvedic-dark-spot-serum.jpeg" },
     { tag: "Sun Care", tagClass: "bg-tertiary text-on-tertiary", forText: "For All Skin", name: "Luxury FluidShield Sunscreen", actives: "SPF 50+ PA++++", rating: "4.9", reviews: "(2,110)", price: "599", mrp: "799", off: "25% OFF", img: "/products/luxury-fluidshield-sunscreen.png" },
-    { tag: "Premium", tagClass: "bg-secondary text-surface", forText: "For Anti-Ageing", name: "Premium Ayurvedic Night Cream", actives: "Retinol + Kumkumadi", rating: "4.8", reviews: "(1,355)", price: "1,199", mrp: "1,599", off: "25% OFF", img: "/products/premium-ayurvedic-night-cream.png" },
+    { tag: "Premium", tagClass: "bg-secondary text-surface", forText: "For Anti-Ageing", name: "Premium Ayurvedic Night Cream", actives: "Retinol + Kumkumadi", rating: "4.8", reviews: "(1,355)", price: "1,199", mrp: "1,599", off: "25% OFF", img: "/products/premium-ayurvedic-night-cream.jpeg" },
     { tag: "Clear Skin", tagClass: "bg-primary/80 text-surface", forText: "For Dull Skin", name: "Professional Face Serum", actives: "Vitamin C 15% + Ferulic", rating: "4.7", reviews: "(1,489)", price: "799", mrp: "1,099", off: "27% OFF", img: "/products/professional-face-serum.jpeg" },
   ];
   return (

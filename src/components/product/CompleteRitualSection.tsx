@@ -1,6 +1,6 @@
 const ITEMS = [
   { img: "/products/ana-ayurvedic-face-mask.png", slug: "ana-ayurvedic-face-mask", step: "PREP", tag: "WEEKLY DETOX", name: "Ana Ayurvedic Face Mask", body: "Detoxifying clay ritual with turmeric and sandalwood.", price: "699", size: "100g" },
-  { img: "/products/premium-ayurvedic-night-cream.png", slug: "premium-ayurvedic-night-cream", step: "NIGHT", tag: "BARRIER REPAIR", name: "Premium Ayurvedic Night Cream", body: "Overnight renewal with Kumkumadi and retinol.", price: "1,199", size: "50g" },
+  { img: "/products/premium-ayurvedic-night-cream.jpeg", slug: "premium-ayurvedic-night-cream", step: "NIGHT", tag: "BARRIER REPAIR", name: "Premium Ayurvedic Night Cream", body: "Overnight renewal with Kumkumadi and retinol.", price: "1,199", size: "50g" },
   { img: "/products/luxury-fluidshield-sunscreen.png", slug: "luxury-fluidshield-sunscreen", step: "DAYTIME SHIELD", tag: "ZERO WHITE CAST", name: "Luxury FluidShield Sunscreen", body: "Ultralight SPF 50+ with niacinamide and cica extract.", price: "599", size: "50ml" },
 ];
 
