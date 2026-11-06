@@ -24,7 +24,7 @@ export default function Hero() {
           </div>
           <div className="lg:col-span-5 relative flex items-center justify-center lg:justify-end">
             <div className="relative w-full max-w-[460px] aspect-[4/5] rounded-xl overflow-hidden shadow-[0_12px_36px_rgba(126,83,30,0.12)]">
-              <img alt="Radiant smiling Indian woman holding a golden facial serum bottle" className="w-full h-full object-cover object-center transform scale-105 hover:scale-100 transition-transform duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDH9SJQi8-gnzpmnGvbE31zSyNo4MV4evQ7UWIz9kCICFTokzb8NfUQU9lnvNiUIuG6lhCNGAMuSL1AT5bioaEMSofMzBpCy3Ah2rgDCnoXmRFiXN1zHH4kWU8IcX42V6THFFcNsutB0YMuBD0F8xP6iP0yIIPvAHMmXQtvYPoOiy7VC8x8CPf-_Ez6JqzdcVrqQDmy7Suuw67L4EO2HrAkWcGFCrLCSN0q5zbKnf6oCGaI_8AU1er6" />
+              <img alt="Nutraciti International skincare banner" className="w-full h-full object-cover object-center transform scale-105 hover:scale-100 transition-transform duration-700 ease-out" src="/images/hero-banner.jpeg" />
               <div className="absolute inset-0 bg-gradient-to-t from-text-heading/40 via-transparent to-transparent pointer-events-none"></div>
               <div className="absolute bottom-4 left-4 right-4 bg-background-base/90 backdrop-blur-md px-space-md py-space-sm rounded-lg border border-border-subtle/80 flex items-center justify-between">
                 <div className="flex flex-col"><span className="font-mono-clinical text-[11px] text-primary tracking-wider uppercase">Clinical Efficacy</span><span className="font-headline-sm text-[16px] text-text-heading leading-tight">+94% Hydration &amp; Tone Balance</span></div>
